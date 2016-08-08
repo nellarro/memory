@@ -12,6 +12,114 @@ h1 {
   margin-top: 0px;
 }
 
-tbody {
-  border: 2px red solid;
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  width:100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px 2px #323337;
+  color: white;
+}
+
+tr {
+  width: inherit;
+  height: inherit;
+  background-size: contain;
+}
+
+.dos {
+  position:absolute;
+  background-image: url(images/gaddams.jpg);
+  background-position: relative;
+}
+
+.uno {
+  position: relative;
+  background-image: url(images/gaddams.jpg);
+  background-position: relative;
+}
+
+.tres, .two-1 {
+  position: relative;
+  background-image: url(images/lurch.jpg);
+  background-position: relative;
+}
+
+.cuatro, .five-2 {
+  position: relative;
+  background-image: url(images/chair.jpg);
+  background-position: relative;
+}
+
+.six-1, .three-4 {
+  position: relative;
+  background-image: url(images/maddams.jpg);
+  background-position: relative;
+}
+
+.four-2, .seven-3 {
+  position: relative;
+  background-image: url(images/itaddams.jpg);
+  background-position: relative;
+}
+
+.two-4, .four-1 {
+  position: relative;
+  background-image: url(images/faddams.jpg);
+  background-position: relative;
+}
+
+.three-2, .six-1 {
+  position: relative;
+  background-image: url(images/scissors.jpg);
+  background-position: relative;
+}
+
+.two-3, .six-4 {
+  position: relative;
+  background-image: url(images/paddams.jpg);
+  background-position: relative;
+}
+
+.two-3, .six-4 {
+  position: relative;
+  background-image: url(images/paddams.jpg);
+  background-position: relative;
+}
+
+.three-1, .six-2 {
+  position: relative;
+  background-image: url(images/taddams.jpg);
+  background-position: relative;
+}
+
+.two-2, .three-3 {
+  position: relative;
+  background-image: url(images/family.jpg);
+  background-position: relative;
+}
+
+.four-4, .five-1 {
+  position: relative;
+  background-image: url(images/tombstone.png);
+  background-position: relative;
+}
+
+.six-3, .four-3 {
+  position: relative;
+  background-image: url(images/logo.jpg);
+  background-position: relative;
+}
+
+.five-3, .five-4 {
+  position: relative;
+  background-image: url(images/frump.jpg);
+  background-position: relative;
 }
